@@ -1,7 +1,7 @@
 import itertools
 
 # Get input as integers inside a list n
-with open("day-1-2-input.txt") as f:
+with open("day-1/day-1-2-input.txt") as f:
     n = f.readlines()
 n = [int(x.strip()) for x in n]
 
