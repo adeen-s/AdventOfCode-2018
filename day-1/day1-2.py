@@ -14,7 +14,6 @@ for i in itertools.cycle(n):
     t.append(t[-1] + i) 
     if len(t) != len(set(t)):
         print("answer = {}".format(t[-1]))
-        a = False
         break
 
 # Total Iterations for the input = 143548
